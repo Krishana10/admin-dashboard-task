@@ -1,0 +1,100 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Books"
+    },
+    {
+      "id": 3,
+      "name": "Clothing"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "categoryId": 1,
+      "description": "Bluetooth over-ear headphones",
+      "price": 99.99,
+      "image": "",
+      "stock": 12,
+      "createdAt": "2025-01-10T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Smartphone",
+      "categoryId": 1,
+      "description": "Android smartphone",
+      "price": 399.99,
+      "image": "",
+      "stock": 0,
+      "createdAt": "2025-02-20T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Novel: The Road",
+      "categoryId": 2,
+      "description": "A gripping novel",
+      "price": 14.5,
+      "image": "",
+      "stock": 5,
+      "createdAt": "2025-03-05T09:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "addresses": [
+        {
+          "id": 1,
+          "label": "Home",
+          "line1": "123 Main St",
+          "city": "City",
+          "zip": "10001"
+        }
+      ],
+      "wishlist": [
+        1
+      ],
+      "cart": [
+        {
+          "productId": 1,
+          "qty": 1
+        }
+      ],
+      "orders": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "addresses": [],
+      "wishlist": [],
+      "cart": [],
+      "orders": []
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "qty": 1
+        }
+      ],
+      "addressId": 1,
+      "status": "Delivered",
+      "createdAt": "2025-04-01T12:00:00Z"
+    }
+  ]
+}

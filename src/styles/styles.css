@@ -1,0 +1,17 @@
+/* styles.css - minimal layout and utilities */
+:root{ --max:1000px; --gap:12px; font-family:Arial, sans-serif; }
+body{ margin:0; padding:0; background:#f6f7fb; color:#111; }
+.app { display:flex; flex-direction:column; min-height:100vh; }
+nav{ background:#1f2937; color:white; padding:12px; }
+.container{ max-width:var(--max); margin:20px auto; padding:12px; background:white; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05); }
+.grid{ display:grid; grid-template-columns: repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
+.card{ border:1px solid #e5e7eb; padding:12px; border-radius:8px; background:white; }
+.button{ padding:8px 10px; border-radius:6px; border:none; cursor:pointer; }
+.small-muted{ font-size:12px; color:#6b7280; }
+.flex{ display:flex; gap:8px; align-items:center; }
+.right{ margin-left:auto; }
+.input{ padding:8px; border:1px solid #d1d5db; border-radius:6px; }
+.badge{ background:#e0e7ff; padding:4px 8px; border-radius:999px; font-size:12px; }
+.out{ color:#b91c1c; font-weight:bold; }
+.link{ color:#60a5fa; text-decoration:underline; cursor:pointer; background:none; border:none; }
+`
